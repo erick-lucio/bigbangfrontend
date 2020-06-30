@@ -29,7 +29,80 @@ import img_boleto from '../../assets/imgs/img_boleto_icon.png';
       return (
         <>
           <Container >
-
+              <Row className="class_footer_row_1">
+                  <Col sm="2">
+                    <span>
+                      Namah
+                    </span>
+                  </Col>
+                  <Col sm="2">
+                      <img></img>
+                      <img></img>
+                      <img></img>
+                  </Col>
+                  <Col sm="2">
+                    <ul>
+                        Institucional
+                        <li>Sobre Nos</li>
+                        <li>Contato</li>
+                    </ul>
+                  </Col>
+                  <Col sm="2">
+                    <ul>
+                        Loja
+                        <li>Cadastre-se</li>
+                        <li>Area do Cliente</li>
+                    </ul>
+                  </Col>
+                  <Col sm="2">
+                    <ul>
+                        Atendimento
+                        <li>olofomeht@hanah.com</li>
+                        <li>(31)2515 6205</li>
+                    </ul>
+                  </Col>
+                  <Col sm="2">
+                    <ul>
+                      Assine Nossa Newsletter
+                      <li><Input></Input><Button>Assinar</Button></li>
+                    </ul>
+                  </Col>
+                  
+              </Row>
+              <Row>
+                  <Col sm="3">
+                      <span>@2020 copyrigh</span>
+                  </Col>
+                  <Col sm="3">
+                    <span>Formas de pagamento</span>
+                    <img></img>
+                    <img></img>
+                    <img></img>
+                    <img></img>
+                    <img></img>
+                  </Col>
+                  <Col sm="2">
+                    <img></img>
+                    <span>Site Seguro</span>
+                  </Col>
+                  <Col sm="2">
+                    <Link>
+                      Duvidas Frequentes
+                    </Link>
+                    |
+                    <Link>
+                      Politicas Da Loja
+                    </Link>
+                  </Col>
+                  <Col sm="2">
+                    <span>
+                      Site por
+                    </span>
+                    <Link>
+                      Big bang shop
+                    </Link>
+                  </Col>
+              </Row>
           </Container>
         </>
       )

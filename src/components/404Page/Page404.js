@@ -8,7 +8,7 @@ import './Page404.css'
 
 /*img imports */
 
-import img_konoha from '../../assets/imgs/konoha_img.png';
+
 
 export default function PageNotFound(){
 

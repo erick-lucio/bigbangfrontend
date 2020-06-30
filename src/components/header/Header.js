@@ -13,15 +13,105 @@ import axios from 'axios';
 import './Header.css';
 
 /*import imgs */
-import store_icon from '../../assets/imgs/img_store.png';
-import search_icon from '../../assets/imgs/img_icon_search.png';
-import menu_icon from '../../assets/icons/menu_sanduich_icon.png';
+
 
 export default function Header(){
 
     return(
         <>
-            <Container></Container>
+            <Container>
+                <Row>
+                    <Col sm="5">
+                        <Row>
+                            <Col sm="2">
+                                <Link>
+                                    INICIO
+                                </Link>
+                            </Col>
+                            <Col sm="2">
+                               <Link>
+                                    BLOG
+                                </Link>
+                            </Col>
+                            <Col sm="2">
+                                <Link>
+                                    LOJA
+                                </Link>
+                            </Col>
+                            <Col sm="2">
+                                <Link>
+                                    PODCASTS
+                                </Link>
+                            </Col>
+                            <Col sm="2">
+                                <Link>
+                                    CURSOS
+                                </Link>
+                            </Col>
+                            <Col sm="2">
+                                <Link>
+                                    CONTATO
+                                </Link>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col sm="2">
+                        <Row>
+                            <Col sm="12" className="class_header_center_logo">
+                                <Link>
+                                    N
+                                </Link>
+                                <Link>
+                                    A
+                                </Link>
+                                <Link>
+                                    M
+                                </Link>
+                                <Link>
+                                    A
+                                </Link>
+                                <Link>
+                                    H
+                                </Link>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col sm="5">
+                        <Row>
+                            <Col sm="2">
+                                <img>
+                                
+                                </img>
+                            </Col>
+                            <Col sm="2">
+                                <img>
+                                
+                                </img>
+                            </Col>
+                            <Col sm="2">
+                                <img>
+                                
+                                </img>
+                            </Col>
+                            <Col sm="2">
+                                <img>
+                                
+                                </img>
+                            </Col>
+                            <Col sm="2">
+                                <img>
+                                
+                                </img>
+                            </Col>
+                            <Col sm="2">
+                                <img>
+                                
+                                </img>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
         </>
     );
 }

@@ -1,0 +1,15 @@
+.class_inicio_container{
+    min-height: 100vh;
+}
+/*Removing link styles */
+
+@media (max-width: 576px) {  /*xs */
+ 
+}
+@media (min-width: 577px) {  /*sm */
+
+    
+} 
+@media (min-width: 768px) {  /*md */
+
+}

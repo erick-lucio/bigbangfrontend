@@ -8,12 +8,14 @@ import {createBrowserHistory} from 'history';
 import PageNotFound from './components/404Page/Page404';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
-import MainPage from './components/mainPage/MainPage';
-import AdminPage from './components/admin/AdminPanel';
-import FaleConosco from './components/faleConosco/FaleConosco';
-import ProductPage from './components/product/ProductPage';
-import CategoryProducts from './components/category/CategoryProducts';
-import SearchBar from './components/searchPage/SearchPage';
+import Inicio from './components/inicio/Inicio';
+import Blog from './components/blog/Blog';
+import Contato from './components/contato/Contato';
+import Cursos from './components/cursos/Cursos';
+import Loja from './components/loja/Loja';
+import Podcasts from './components/podcasts/Podcasts';
+
+
 
 /*css imports */
 import './index.css';
@@ -33,12 +35,14 @@ export default function Routes(){
             <BrowserRouter history={history} basename="/">     
             
             <Header/>
-            <Switch>
-                <Route exact path="/admin" component={AdminPage}/>          
-                <Route exact path="/" component={MainPage}/>   
-                <Route exact path="/product/:id" component={ProductPage} />
-                <Route exact path="/category/:id" component={CategoryProducts}/> 
-                <Route exact path="/search/:id" component={SearchBar}/> 
+            <Switch>                    
+                <Route exact path="/" component={Inicio}/>   
+                <Route exact path="/loja" component={Loja}/> 
+                <Route exact path="/podcast" component={Podcasts}/> 
+                <Route exact path="/cursos" component={Cursos}/> 
+                <Route exact path="/contato" component={Contato}/> 
+                <Route exact path="/blog" component={Blog}/> 
+    
                 
                 
                 
@@ -46,7 +50,7 @@ export default function Routes(){
                 <Route component={PageNotFound}/>
             </Switch>
             <Footer/>
-            <FaleConosco/>
+            
          
             
             
