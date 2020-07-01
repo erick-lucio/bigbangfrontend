@@ -1,6 +1,79 @@
 .class_inicio_container{
     min-height: 100vh;
 }
+.class_inicio_smilewoman_img{
+    width: 100%;
+}
+.class_inicio_col_1_womansmile_img{
+    margin: 40px auto 20px auto;
+    background-image: url('../../assets/imgs/img_woman_inicio.png');
+    background-repeat: none;
+    background-size: cover;
+    min-height: 150px;
+    text-align: right;
+}
+.class_inicio_col_1_texts{
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 20px;
+}
+.class_inicio_col_1_button{
+    background-color: #73A8A0;
+    color: rgb(255, 255, 250);
+    padding: 8px 35px 8px 35px;
+    margin-left: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.class_inicio_col_viagem_img{
+    background-image: url("../../assets/imgs/img_woman_praising.png");
+    background-repeat: none;
+    background-size: cover;
+    min-height: 350px;
+    padding-right: 20px;
+}
+.class_inicio_col_woman_group_img{
+    background-image: url("../../assets/imgs/img_womans_group.png");
+    background-repeat: none;
+    background-size: cover;
+    min-height: 175px;
+    width: 95%;
+    margin-left: 5%;
+   
+}
+.class_inicio_col_woman_yoda{
+    background-image: url("../../assets/imgs/img_woman_yoga.png");
+    background-repeat: none;
+    background-size: cover;
+    min-height: 160px;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+.class_inicio_col_condicionador{
+    background-image: url("../../assets/imgs/img_condiciodor.png");
+    background-repeat: none;
+    background-size: cover;
+    min-height: 160px;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.class_inicio_col_itens{
+    margin-top: 20px;
+}
+.class_inicio_col_especialists_sugest{
+    padding-top: 50px;
+    
+    font-size: 0.95rem;
+}
+.class_inicio_col_itens_img{
+    
+ 
+}
+.class_inicio_img_iten{
+    width: 100%;
+}
 /*Removing link styles */
 
 @media (max-width: 576px) {  /*xs */
