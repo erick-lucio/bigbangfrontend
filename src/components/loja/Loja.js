@@ -17,7 +17,7 @@ import './Loja.css';
 /*import imgs */
 
 
-export default function MainPage(){
+export default function Loja(){
     window.scrollTo(0, 0); 
 
   

@@ -17,7 +17,7 @@ import './Podcasts.css';
 /*import imgs */
 
 
-export default function MainPage(){
+export default function Podcasts(){
     window.scrollTo(0, 0); 
 
   

@@ -3,6 +3,63 @@
 .class_header_center_logo{
     text-align: center;
 }
+.class_header_row_1{
+    padding: 30px 10px 15px 10px;    
+    font-size: 1.1rem;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.class_header_col_3{
+    padding-top: 6px;
+    text-align: center;
+}
+.class_header_navigations_links:focus{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #73A8A0;
+}
+.class_header_col_1{
+    text-align: center;
+   
+}
+.class_header_variable_col{
+  border-radius: 100%;
+  margin: auto 28px auto 28px;
+  padding-left: 10px;
+  background-color: #73A8A0;
+}
+.class_header_col_market{
+    
+}
+.class_header_row_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.class_header_marker_icon_variable_col{
+    
+}
+.class_header_marker_icon_variable_row{
+    margin-bottom: 20px;
+}
+.class_header_variable_row{
+   margin-bottom: -5px;
+}
+.class_header_img_icons{
+    cursor: pointer;
+}
+.class_header_navigations_links{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:15px;
+    margin-right: 15px;
+    font-size: 1.3rem;
+    
+}
+
+
+
 @media (max-width: 576px) {  /*xs */
 
 

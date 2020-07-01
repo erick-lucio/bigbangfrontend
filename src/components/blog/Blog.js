@@ -17,14 +17,44 @@ import './Blog.css';
 /*import imgs */
 
 
-export default function MainPage(){
+export default function Blog(){
     window.scrollTo(0, 0); 
 
   
     return(
         <>           
             <Container className="class_inicio_container">
-            
+                <Row>
+                    <Col sm="2">
+                    </Col>
+                    <Col sm="8">
+                        <Row>
+                            <Col sm="6">
+
+                            </Col>
+                            <Col sm="6">
+
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col sm="4">
+
+                            </Col>
+                            <Col sm="4">
+
+                            </Col>
+                            <Col sm="4">
+                                
+                            </Col>
+                        </Row>
+                        <Row>
+
+                        </Row>
+                    </Col>
+                    <Col sm="2">
+                    </Col>
+
+                </Row>
     
             </Container>
             

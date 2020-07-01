@@ -17,7 +17,7 @@ import './Cursos.css';
 /*import imgs */
 
 
-export default function MainPage(){
+export default function Cursos(){
     window.scrollTo(0, 0); 
 
   
