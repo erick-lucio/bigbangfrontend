@@ -1,8 +1,112 @@
 .class_inicio_container{
     min-height: 100vh;
 }
-/*Removing link styles */
 
+.class_blog_travel_img{
+    width: 100%;
+    
+}
+.class_blog_woman_halter_img{
+    width: 100%;
+}
+.class_blog_man_running_img{
+    width: 100%;
+}
+.class_blog_woman_halter_img2{
+    width: 100%;
+}
+.class_blog_row_1{
+    margin-top: 40px;
+}
+.class_blog_row_2{
+    margin-top: 30px;
+}
+.class_blog_text_tittle_1{
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    color: rgb(247, 243, 238);
+    font-size: 1.5rem;
+    
+}
+.class_blog_text_descrip_1{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: rgb(247, 243, 238);
+}
+.class_blog_text_tittle_2{
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    color: rgb(247, 243, 238);
+    font-size: 1.5rem;
+}
+.class_blog_text_descrip_2{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: rgb(247, 243, 238);
+}
+.class_blog_tittle_1{
+    color: rgb(2, 2, 2);
+    font-size: 1.4rem;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.class_blog_description_1{
+    color: rgb(2, 2, 2);
+    margin-top: 10px;
+}
+
+.class_blog_sub_desciption_1{
+    color: rgb(2, 2, 2);
+    margin-top: 15px;
+    font-weight: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.class_blog_col_form_1{
+    border: 1px solid rgb(15, 15, 15);
+    text-align: center;
+}
+.class_blog_col_form_1 li{
+    margin-top: 20px;
+}
+.class_blog_form_tittle{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.class_blog_form_assign{
+
+}
+.class_blog_form_input{
+    width: 85%;
+    padding-left: 10px;
+}
+.class_blog_form_button{
+    background-color: inherit;
+    border: 1px solid black;
+    padding: 3px 13px 2px 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.class_blog_form_details{
+
+}
+.class_blog_last_row{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.class_blog_button_last_row{
+    background-color: #73A8A0;
+    padding:  8px 20px 8px 20px;
+    border: 1px solid #73A8A0;
+    color: rgb(250, 246, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 @media (max-width: 576px) {  /*xs */
  
 }

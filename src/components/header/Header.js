@@ -20,6 +20,8 @@ import hearthIcon from '../../assets/icons/hearth_icon.png';
 import leaveIcon from '../../assets/icons/leave_icon.png';
 import perfilIcon from '../../assets/icons/perfil_icon.png';
 
+import hamburguerIcon from '../../assets/icons/menu_sanduich_icon.png';
+
 export default function Header(){
     const var_number_example = 35;
     function testFunction() {
@@ -29,9 +31,9 @@ export default function Header(){
         <>
             <Container fluid={true}>
                 <Row className="class_header_row_1">
-                    <Col sm="5" className="class_header_col_1">
+                    <Col sm="4" md="5" className="class_header_col_1 d-none d-lg-flex">
                         <Row>
-                            <Col sm="12" >
+                           
                                 <Link className="class_header_navigations_links" to="/">
                                     INICIO
                                 </Link>
@@ -55,12 +57,12 @@ export default function Header(){
                                 <Link className="class_header_navigations_links" to="/contato">
                                     CONTATO
                                 </Link>
-                            </Col>
+                            
                         </Row>
                     </Col>
-                    <Col sm="2" className="class_header_col_2">
+                    <Col xs="1" sm="1" md="6" lg="2" className="class_header_col_2">
                         <Row>
-                            <Col sm="12" className="class_header_center_logo">
+                            <Col xs="2" md="2" className="class_header_center_logo">
                                 <Link>
                                 <svg width="32" height="45" viewBox="0 0 32 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M31.6551 39.8763C30.813 42.5033 29.3015 43.9796 27.4013 44.7178C25.0261 45.6513 23.5362 44.175 23.0828 41.9388C22.6509 39.7895 22.435 37.575 22.4134 35.3822C22.327 28.348 22.3918 21.2921 22.3702 14.2579C22.3702 12.7816 22.2838 11.3053 22.1327 9.85066C22.0463 8.98223 21.7008 8.15723 20.7939 7.89671C19.8438 7.61447 19.196 8.26579 18.6994 8.96052C17.4038 10.871 16.173 12.825 14.8775 14.7355C14.1217 15.8645 13.4092 17.0368 12.5022 18.0355C11.509 19.1428 10.2566 20.0112 8.61553 19.4684C7.01766 18.9474 6.34828 17.6013 6.19713 16.0816C5.9812 14.1059 5.95961 12.1085 5.89483 10.1112C5.72209 3.79342 5.0743 3.35921 -2.25047e-05 6.15986C-0.0216154 3.72829 2.13767 0.840786 4.36174 0.688812C7.10403 0.493418 7.77341 2.46908 8.27005 4.68355C8.87465 7.48421 8.61553 10.35 8.80987 13.1724C8.89624 14.3447 8.98261 15.6474 10.2998 16.0382C11.5306 16.4072 12.1568 15.2783 12.7398 14.4316C14.2729 12.1737 15.7196 9.85065 17.2527 7.61447C18.5051 5.76908 19.8654 3.70657 22.4997 4.53157C24.9397 5.29144 25.0693 7.6796 25.0909 9.78552C25.1773 17.4493 25.1557 25.1349 25.1773 32.7987C25.1773 33.8408 25.1557 34.9046 25.1989 35.9467C25.3716 41.4395 26.3433 42.1125 31.6551 39.8763Z" fill="black"/>
@@ -81,29 +83,29 @@ export default function Header(){
                             </Col>
                         </Row>
                     </Col>
-                    <Col sm="5" className="class_header_col_3">
+                    <Col xs="11" md="6" lg="5" className="class_header_col_3">
                         <Row className="class_header_row_icons">
-                            <Col sm="2">
+                            <Col xs="1" md="2" className="d-none d-md-flex">
                                 <img src={searchIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
                                 
                                 </img>
                             </Col>
-                            <Col sm="2">
+                            <Col xs="1" md="2">
                                 <img src={perfilIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
                                 
                                 </img>
                             </Col>
-                            <Col sm="2">
+                            <Col xs="1" md="2" className="d-none d-md-flex">
                                 <img src={packageIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
                                 
                                 </img>
                             </Col>
-                            <Col sm="2">
+                            <Col xs="1" md="2">
                                 <img src={hearthIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
                                 
                                 </img>
                             </Col>
-                            <Col sm="2" className="class_header_col_market">
+                            <Col xs="1" md="2" className="class_header_col_market">
                                 <Row className="class_header_variable_row">
                                     <Col className="class_header_variable_col">                                       
                                             {var_number_example}                                        
@@ -111,16 +113,19 @@ export default function Header(){
                                 </Row>    
                                 <Row className="class_header_marker_icon_variable_row">
                                     <Col className="class_header_marker_icon_variable_col">
-                                        <img src={marketIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
+                                        <img xs="1" src={marketIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
                                         
                                         </img>
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col sm="2">
+                            <Col xs="1" md="2" className="d-none d-md-flex">
                                 <img src={leaveIcon} className="class_header_img_icons" onClick={()=>testFunction()}>
                                 
                                 </img>
+                            </Col>
+                            <Col xs="2" className="d-md-none">
+                                <img src={hamburguerIcon} className="class_header_hambug_icon"></img>
                             </Col>
                         </Row>
                     </Col>

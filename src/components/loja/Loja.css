@@ -1,13 +1,57 @@
-.class_inicio_container{
+.class_loja_container{
     min-height: 100vh;
 }
-/*Removing link styles */
-
+.class_loja_row_2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.class_loja_imgs{
+    width: 100%;
+    
+}
+.class_loja_hearth_icon{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.75);;
+    padding: 3px;
+}
+.class_loja_button_1{
+    background-color: #73A8A0;
+    padding:  8px 20px 8px 20px;
+    border: 1px solid #73A8A0;
+    color: rgb(250, 246, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.class_loja_row_1{
+    margin-top: 50px;
+}
+.class_loja_img_tittle{
+    color: rgb(3, 3, 3);
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.class_loja_img_description{
+    margin-top: 15px;
+    text-align: center;
+}
+.class_loja_img_price{
+    margin-top: 15px;
+    text-align: center;
+}
 @media (max-width: 576px) {  /*xs */
- 
+    .class_loja_button_1{
+        margin-bottom: 30px;
+    }
 }
 @media (min-width: 577px) {  /*sm */
-
+    .class_loja_button_1{
+        margin-bottom: 30px;
+    }
     
 } 
 @media (min-width: 768px) {  /*md */

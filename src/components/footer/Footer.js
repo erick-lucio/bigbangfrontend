@@ -37,7 +37,7 @@ import cieloIcon from '../../assets/icons/cielo_icon.png';
         <>
           <Container fluid={true} className="class_footer_container">
               <Row className="class_footer_row_1">
-                  <Col sm="2">    
+                  <Col md="2">    
                     <span className="class_footer_svg_name">               
                         <svg width="32" height="45" viewBox="0 0 32 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M31.6551 39.8763C30.813 42.5033 29.3015 43.9796 27.4013 44.7178C25.0261 45.6513 23.5362 44.175 23.0828 41.9388C22.6509 39.7895 22.435 37.575 22.4134 35.3822C22.327 28.348 22.3918 21.2921 22.3702 14.2579C22.3702 12.7816 22.2838 11.3053 22.1327 9.85066C22.0463 8.98223 21.7008 8.15723 20.7939 7.89671C19.8438 7.61447 19.196 8.26579 18.6994 8.96052C17.4038 10.871 16.173 12.825 14.8775 14.7355C14.1217 15.8645 13.4092 17.0368 12.5022 18.0355C11.509 19.1428 10.2566 20.0112 8.61553 19.4684C7.01766 18.9474 6.34828 17.6013 6.19713 16.0816C5.9812 14.1059 5.95961 12.1085 5.89483 10.1112C5.72209 3.79342 5.0743 3.35921 -2.25047e-05 6.15986C-0.0216154 3.72829 2.13767 0.840786 4.36174 0.688812C7.10403 0.493418 7.77341 2.46908 8.27005 4.68355C8.87465 7.48421 8.61553 10.35 8.80987 13.1724C8.89624 14.3447 8.98261 15.6474 10.2998 16.0382C11.5306 16.4072 12.1568 15.2783 12.7398 14.4316C14.2729 12.1737 15.7196 9.85065 17.2527 7.61447C18.5051 5.76908 19.8654 3.70657 22.4997 4.53157C24.9397 5.29144 25.0693 7.6796 25.0909 9.78552C25.1773 17.4493 25.1557 25.1349 25.1773 32.7987C25.1773 33.8408 25.1557 34.9046 25.1989 35.9467C25.3716 41.4395 26.3433 42.1125 31.6551 39.8763Z" fill="white"/>
@@ -56,44 +56,44 @@ import cieloIcon from '../../assets/icons/cielo_icon.png';
                         </svg>          
                     </span>           
                   </Col>
-                  <Col sm="2" className="class_footer_col_social_media_icons">
+                  <Col md="2" className="class_footer_col_social_media_icons">
                       <Link><img src={instagramIcon} className="class_footer_img_socialmedia_icons"></img></Link>
                       <Link><img src={facebookIcon} className="class_footer_img_socialmedia_icons"></img></Link>
                       <Link><img src={twitterIcon} className="class_footer_img_socialmedia_icons"></img></Link>
                   </Col>
-                  <Col sm="1">
+                  <Col xs="3" sm="3" md="1" className="class_footer_lists">
                     <ul>
                         <span className="class_footer_list_tittle">Institucional</span>
                         <li className="class_footer_list_item"><Link>Sobre Nos</Link></li>
                         <li className="class_footer_list_item"><Link>Contato</Link></li>
                     </ul>
                   </Col>
-                  <Col sm="1">
+                  <Col xs="3" sm="3" md="1" className="class_footer_lists">
                     <ul>
                         <span className="class_footer_list_tittle">Loja</span>
                         <li className="class_footer_list_item"><Link>Cadastre-se</Link></li>
                         <li className="class_footer_list_item"><Link>Area do Cliente</Link></li>
                     </ul>
                   </Col>
-                  <Col sm="1">
+                  <Col xs="3" sm="3" md="1" className="class_footer_lists">
                     <ul>
                         <span className="class_footer_list_tittle">Atendimento</span>
                         <li className="class_footer_list_item">olofomeht@hanah.com</li>
                         <li className="class_footer_list_item">(31)2515 6205</li>
                     </ul>
                   </Col>
-                  <Col sm="5" className="class_footer_newsletter_col">
+                  <Col md="5" className="class_footer_newsletter_col">
                       <ul>
-                      <span className="class_footer_list_tittle">Assine Nossa Newsletter</span>                            
-                      <li><Input className="class_footer_list_input"></Input><button className="class_footer_list_button" onClick={()=>testFunction()}>Assinar</button></li>
+                      <span xs="12" sm="12" className="class_footer_list_tittle">Assine Nossa Newsletter</span>                            
+                      <li><Input className="class_footer_list_input" placeholder="Seu Email"></Input><button xs="12" sm="12" className="class_footer_list_button" onClick={()=>testFunction()}>Assinar</button></li>
                       </ul>
                   </Col>
               </Row>
               <Row className="class_footer_row_2">
-                  <Col sm="4" className="class_footer_col_copiryght">
+                  <Col md="4" className="class_footer_col_copiryght">
                       <span>© 2020 Espaço Namah. Todos os direitos reservados. CNPJ: 19.035.854/0001-31.</span>
                   </Col>
-                  <Col sm="3" className="class_footer_col_payment_methods">
+                  <Col md="3" className="class_footer_col_payment_methods">
                     <span>Formas de pagamento:</span>
                     <img src={visaIcon} className="class_footer_payment_imgs_icon"></img>
                     <img src={masterCardIcon} className="class_footer_payment_imgs_icon"></img>
@@ -101,11 +101,11 @@ import cieloIcon from '../../assets/icons/cielo_icon.png';
                     <img src={americanIcon} className="class_footer_payment_imgs_icon"></img>
                     <img src={boletoIcon} className="class_footer_payment_imgs_icon"></img>               
                   </Col>
-                  <Col sm="2" className="class_footer_secure_website_col">
+                  <Col md="2" className="class_footer_secure_website_col">
                     <img src={lockIcon} className="class_footer_lock_img_icon"></img>
                     <span>Site Seguro</span>
                   </Col>
-                  <Col sm="2" className="class_footer_faq_col">
+                  <Col md="2" className="class_footer_faq_col">
                     <Link>
                       Duvidas Frequentes 
                     </Link>
@@ -114,7 +114,7 @@ import cieloIcon from '../../assets/icons/cielo_icon.png';
                       Politicas Da Loja
                     </Link>
                   </Col>
-                  <Col sm="1" className="class_footer_made_by">
+                  <Col md="1" className="class_footer_made_by">
                     <span>
                       Site por&nbsp;
                     </span>
